@@ -55,6 +55,9 @@ String loginUsername = input.nextLine();
 System.out.print("Enter your password: ");
 String loginPassword = input.nextLine();
 
+String name ="Karabo";
+String surname = "Mkhize";
+
 boolean loginSuccessful = login.loginUser(loginUsername, loginPassword);
 System.out.println(login.returnLoginStatus(loginSuccessful));
 input.close();
